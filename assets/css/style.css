@@ -20,18 +20,26 @@ section {
 }
 
 /* General Styles Start */
-.flex-row {
-    display: flex;
+.left-column {
+    width: 15%;
+    height: 200px;
+    float: left;
+}
+
+.right-column {
+    margin-left: 15%;
+    height: 200px;
 }
 
 .title {
-    padding-bottom: 20px;
     text-align: center;
-    margin: 0 auto 35px auto;
-    width: 40%;
+    vertical-align: middle;
+    line-height: 200px;
+    margin: auto;
+    height: 100%;
     font-size: 40px;
     color: var(--secondary-color);
-    border-bottom: 3px solid;
+    border-right: 3px solid;
 }
 
 /* General Styles End */
@@ -103,7 +111,7 @@ header nav ul li a:hover {
 
 .hero-text {
     display: inline-block;
-    background-color: rgba(170, 169, 169, 0.8);
+    background-color: rgba(170, 169, 169, 0.9);
     padding: 20px;
     color: var(--secondary-color);
     border: 3px solid var(--secondary-color);
@@ -116,7 +124,7 @@ header nav ul li a:hover {
 }
 
 .hero-text h2 {
-    font-size: 24px;
+    font-size: 40px;
     margin: 0;
 }
 /* Hero Style End */
@@ -124,7 +132,8 @@ header nav ul li a:hover {
 /* About Me Style Start */
 .about-me p {
     text-align: center;
+    vertical-align: middle;
     font-size: 25px;
-    padding: 30px;
+    padding: 50px;
 }
 /* About Me Style End */
