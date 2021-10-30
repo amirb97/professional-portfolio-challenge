@@ -42,6 +42,12 @@ section {
     border-right: 3px solid;
 }
 
+.section-text {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    padding: 50px;
+}
 /* General Styles End */
 
 /* Header Style Start */
@@ -97,7 +103,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
-/* Header Style Start */
+/* Header Style End */
 
 /* Hero Style Start */
 .hero {
@@ -129,11 +135,49 @@ header nav ul li a:hover {
 }
 /* Hero Style End */
 
-/* About Me Style Start */
-.about-me p {
-    text-align: center;
-    vertical-align: middle;
-    font-size: 25px;
-    padding: 50px;
+/* Portfolio Style Start */
+.portfolio {
+    height: 1500px;
+    background: rgba(255, 0, 0, 0.2);
 }
-/* About Me Style End */
+
+.portfolio-column {
+    height: 1440px;
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.main-project {
+    margin-left: 15%;
+    background: rgba(255, 0, 255, 0.2);
+}
+
+.sub-project {
+    margin-left: 15%;
+    background: rgba(0, 0, 255, 0.2);
+}
+/* Portfolio Style End */
+
+/* Contact Me Style Start */
+    .contact-me {
+        display: flex;
+    }
+
+    .contact-info {
+        display: flex;
+        width: 85%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .contact-info div h3 {
+        font-size: 30px;
+        color: var(--secondary-color);
+        padding: 10px;
+        border-bottom: 3px solid var(--accent-color);
+    }
+
+    .contact-info div h3 a {
+        text-decoration: none;
+        color: var(--secondary-color);
+    }
+/* Contact Me Style End */
