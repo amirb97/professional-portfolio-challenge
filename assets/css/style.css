@@ -125,13 +125,24 @@ header nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 250px;
+    left: -50px;
+    z-index: 9990;
 }
 
 .hero-text h2 {
     font-size: 40px;
     margin: 0;
+}
+
+.hero-pic img {
+    margin: 3.5%;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    max-height: 300px;
+    position: absolute;
+    top: -25px;
 }
 /* Hero Style End */
 
