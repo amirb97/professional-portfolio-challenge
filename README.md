@@ -5,6 +5,6 @@ Portfolio to introduce myself to potential employers, and showcase some of the p
 Screenshots of deployed webpage at:
 https://amirb97.github.io/professional-portfolio-challenge/
 
-![Screenshot of webpage](./assets/images/live-url-1?raw=true)
+![Screenshot of webpage](./assets/images/live-url-1.png?raw=true)
 
-![Screenshot of webpage](./assets/images/live-url-2?raw=true)
+![Screenshot of webpage](./assets/images/live-url-2.png?raw=true)
