@@ -195,6 +195,7 @@ header nav ul li a:hover {
 .sub-project img {
     opacity: 50%;
     max-width: 400px;
+    height: 100%;
 }
 
 .sub-project img:hover {
