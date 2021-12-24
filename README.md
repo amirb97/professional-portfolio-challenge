@@ -9,4 +9,4 @@ https://amirb97.github.io/professional-portfolio-challenge/
 
 ![Screenshot of webpage](./assets/images/live-url-2.png?raw=true)
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]
+![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)
